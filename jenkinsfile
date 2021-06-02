@@ -13,7 +13,8 @@ pipeline{
       steps{
         sh '''
           curl -v -u admin:admin --upload-file frontend.zip http://172.31.2.243:8081/repository/frontend/frontend.zip
-        ...
+       
+        '''
 
 
       }
